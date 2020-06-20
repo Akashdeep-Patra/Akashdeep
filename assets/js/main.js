@@ -1,9 +1,3 @@
-/**
- * Template Name: iPortfolio - v1.3.0
- * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
- * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
- */
 !(function ($) {
   'use strict'
 
@@ -211,4 +205,14 @@
   })
 })(jQuery)
 
-//mailing to my email (contact me)
+//blur the header image on scroll
+
+// $(window).scroll(function (e) {
+//   var distanceScrolled = $(this).scrollTop()
+
+//   $('#hero').css('-webkit-filter', 'blur(' + distanceScrolled / 10 + 'px)')
+//   $('#hero').css('-moz-filter', 'blur(' + distanceScrolled / 10 + 'px)')
+//   $('#hero').css('-o-filter', 'blur(' + distanceScrolled / 10 + 'px)')
+//   $('#hero').css('-ms-filter', 'blur(' + distanceScrolled / 10 + 'px)')
+//   $('#hero').css('filter', 'blur(' + distanceScrolled / 10 + 'px)')
+// })
