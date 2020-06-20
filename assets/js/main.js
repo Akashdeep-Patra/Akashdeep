@@ -29,7 +29,7 @@
           {
             scrollTop: scrollto
           },
-          1500,
+          2000,
           'easeInOutExpo'
         )
 
