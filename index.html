@@ -17,8 +17,16 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+<!-- aos animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
+    
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -26,29 +34,24 @@
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet" /> -->
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
 
-    <!-- =======================================================
-  * Template Name: iPortfolio - v1.3.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
   </head>
 
-  <body>
+  <body >
     <!-- ======= Mobile nav toggle button ======= -->
     <button type="button" class="mobile-nav-toggle d-xl-none"><i class=" icofont-navigation-menu"></i></button>
 
     <!-- ======= Header ======= -->
-    <header class="shadow-lg rounded" id="header">
-      <div class="d-flex flex-column">
-        <div class="profile">
+    <header class="shadow-lg rounded" data-aos="slide-right"  id="header">
+      <div class="d-flex flex-column"  data-aos="slide-right">
+        <div class="profile"  data-aos="slide-right">
           <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle" />
           <h1 class="text-light"><a href="index.html">Akashdeep Patra</a></h1>
-          <div class="social-links mt-3 text-center">
+          <div class="social-links mt-3 text-center"  data-aos="slide-right">
             <a href="https://twitter.com/mr_mornin_star" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
             <a href="https://www.facebook.com/akash.dip.35" target="_blank"  class="facebook"><i class="bx bxl-facebook"></i></a>
             <a href="https://www.instagram.com/mr_mornin_star/"  target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
@@ -59,7 +62,7 @@
           </div>
         </div>
 
-        <nav class="nav-menu">
+        <nav class="nav-menu" data-aos="slide-right">
           <ul>
             <li class="active">
               <a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a>
@@ -89,8 +92,8 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-      <div class="hero-container" data-aos="fade-in">
-        <h1>Akashdeep Patra</h1>
+      <div class=" hero-container " data-aos-offset="-500" data-aos-anchor-placement="bottom-center" data-aos="fade-down">
+        <h1 >Akashdeep Patra</h1>
         <p>I'm a <span class="typed" data-typed-items="Developer, Photographer"></span></p>
       </div>
     </section>
@@ -100,7 +103,7 @@
       <!-- ======= About Section ======= -->
       <section id="about" class="about">
         <div class="container">
-          <div class="section-title">
+          <div data-aos="fade-right" class="section-title">
             <h2>About</h2>
             <p>
               Hi i'm a full time software developer and a part time Photographer, passionate about solving problems and
@@ -109,10 +112,10 @@
           </div>
 
           <div class="row">
-            <div class="col-lg-4" data-aos="fade-right">
+            <div class="col-lg-4" data-aos="slide-right">
               <img src="assets/img/profile-img.jpg" class="shadow-lg card img-fluid" alt="" />
             </div>
-            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="zoom-in-left">
               <h3>Software Engineer & Photographer</h3>
               <p class="font-italic">
                 Things that you might or might not want to know about me .
@@ -321,8 +324,8 @@
           </div>
 
           <div class="row">
-            <div class="col-lg-6" data-aos="fade-up">
-              <h3 class="resume-title">Sumary</h3>
+            <div class="col-lg-6"   data-aos="slide-right">
+              <h3 class="resume-title">Summary</h3>
               <div class="resume-item pb-0">
                 <h4>Akashdeep Patra</h4>
                 <p>
@@ -353,7 +356,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-6" data-aos="zoom-in-left" data-aos-delay="100">
               <h3 class="resume-title">Professional Experience</h3>
               <div class="resume-item">
                 <h4>Software Engineer</h4>
@@ -400,7 +403,7 @@
             </p>
           </div>
 
-          <div class="row" data-aos="fade-up">
+          <div class="row">
             <div class="col-lg-12 d-flex justify-content-center">
               <ul id="portfolio-flters">
                 <li data-filter="*" class="filter-active">All</li>
@@ -411,8 +414,8 @@
             </div>
           </div>
 
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="row portfolio-container" >
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos-duration=600 data-aos="fade-up">
               <div class="shadow-lg card portfolio-wrap">
                 <img
                   src="http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Fgithub.com%2FAkashdeep-Patra%2FSeeker"
@@ -428,7 +431,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos-duration=600 data-aos="fade-up">
               <div class="shadow-lg card portfolio-wrap">
                 <img
                   src="http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Fgithub.com%2FAkashdeep-Patra%2FBookHub
@@ -445,7 +448,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos-duration=600 data-aos="fade-up">
               <div class="shadow-lg card portfolio-wrap">
                 <img
                   src="http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Fgithub.com%2FAkashdeep-Patra%2FYoutube_mock
@@ -462,7 +465,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos-duration=600 data-aos="fade-up">
               <div class="shadow-lg card portfolio-wrap">
                 <img
                   src="http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Fgithub.com%2FAkashdeep-Patra%2FTinder_bot_python_v2
@@ -479,7 +482,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos-duration=600 data-aos="fade-up">
               <div class="shadow-lg card portfolio-wrap">
                 <img src="https://lh3.googleusercontent.com/E-xWIdfI8tw9o5GRxx0lSHf93N9rEJTFAsKG4ghi1ZosnWbOr3Zy8O03tbIyVBiAJz4yjzPM69E_vxG7xAAXsKO_-aB_5j1F6f8P4bduO0kxSDb8yaFCEO7Mq9mwGM5wUpl7ynCNUfBw6GI3OMqnhIKsC0MCRaXG9q0L3Ihq5r5abiCnSR7LyTWL__74BfXGIV2EaaWPcdchA7mTSavFH5Es6GFedZ8E0SwO17KW_4g0tKKmSVepf_vuwNXiHmDJWRUX4KaDOQQps1dFS6LfIHGNwUA4wtmMoCKC8iSKRIFvoQnOvIUGIAiGAHCCx-YnC0di7l1XWPQNz0F1FIRZ8srPKv_a23l4L6EMAxLPQJMopH_cY75vjpfF-bsF6UqW8WNbTbPUv_zGOwYzPAhi7UqIHk-HmczfgwRJ6Qy_ZIp9cgtjeI8nLsIRggRwueMkW-cusIEDgnTjILxz1g0fRYHPoSVDDMGF-aHPdJCOv2FuJWoj6gFxSjTviE7LHoblSCYAVfSCf3Z57Xdo3atVxt7ffv-OItq97fxM36c5akhrlEOIiC1Syp-24yKTc2hPtggnl2tYJ0flUIpAymAS1e42UE0zY_rNMn6Hln4VY9Wt6Ty4LeGMfKPiBkGetRjf1F2IouU01z2Pr9QqhyXC4KsXMt-YNqpKLSlGCJprTHuwj0WKn-gmh6W4AvEUBA=w897-h665-no?authuser=0" class="img-fluid" alt="" />
                 <div class="portfolio-links">
@@ -494,7 +497,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos-duration=600 data-aos="fade-up">
               <div class="shadow-lg card portfolio-wrap">
                 <img src="https://lh3.googleusercontent.com/hMItifSMFDbu2q-FnRz6SRo1Nfwy4MKf3rimaG4IH3iqjDRwUJ93B3BcqJ3XKqE-M7eHjsTjMi58DBmTziCIZiLD8ICHFc_BeaVbV8pvUUE-a5bH7wb9FYs9yXPqt6zYzfGWrFvQFrLE9lathsSgSa0KtK2IWHVavOiFIYODTZiU_FOSyTMvV6poZTJzDDFOIdbk6wHrhgGVVUnDFhtM0_xMkbpAI8TlPxRVwsJHO-x70YgvmYrX4XG7jP58R61_fMastbBBV1fpj-Z9xRdtULcbEZF_vBh0fwfy1daj23Z6wM8C5SAXfeCANtkjx77tSdA18SdLXdqHuLxZHpTq-bQY5xt-9YR0510kdPcoq68RGQvFFMinbOxBgYUau8TKq81E1Ste4J-JddAljZwUwZ_DKfjQbV68NbmKAm7jGYce3MzvmL3bXIjsop2LMNj_JmoEN-x7kVn5R-NG3dSkuM1Pzs85Nl3PcYw9iXgi4D-Hri3ovSRTmgAOyg9QP1CbQMho1Sekc4NC-M8dDOWyZ6Y0eogGEO8ainYV96tHUzRr2qipJn4MmdNHFqe0Ade2iOy-7c22M0Tth7nXQAlQiJ2fEpSAB1TJcO98ls2DIZ2bIo7NVXFO5Vx72ApdYULJk46dv3PFDnm3fUvPqclHGWPaQl9IrZ8pvKKH2RJzJQ4c9QWHVyOkqMQQzdkqoQQ=w873-h665-no?authuser=0" class="img-fluid" alt="" />
                 <div class="portfolio-links">
@@ -509,7 +512,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos-duration=600 data-aos="fade-up">
               <div class="shadow-lg card portfolio-wrap">
                 <img src="https://lh3.googleusercontent.com/-_nXO16TJcdBzNW5tapRy0xdcus_a0s-x8nGWr6Ug3veKXD26QKv5MrWj9W0mOyB-0qXh1ZZ-dsqu4cdidsUn6QIZbGhmSJX9r3iS8Uk0zJKRcoxCzNrjib0qZMSrWwYEUP2ZGJRMANIEVYGxyL3ec9wddP0x4qg2CbdTkHPf2ZYMop6F1I5iEHpm-b4u7yh9jR7YC31gxCVCX607HbosLOlFqhsKvvNxnl8F7sIn4brIAE2n6-401LpmT6QX5RxujQvxMW1iKIbXnzlVKCsHPqK1PHnicQ9ofSqBK8g_nF4tJBXj21eyPEdaxPuAzpUqG-q34jH7k77vcfd3qnGwygFNEiLyrL4KlHOO4we-AyZKrYjnwXbj59ziqSEIjmSOq5Fu6ljtJQSrN4iJ3mDoUPlOFbu8sNt3ghYS01BCWWlKPCF1gLWQbKNKiiXXobB-Z_lpka0_AAkfNWk3ypwPnfi4_21srrdFX43UF7iq59SbKNveBpdPLRlT_UXbu9wy4Nqslflw1m22SLyFqnPUnnlkmIKGM2TuXxNPPyIqugONkpmM-OmZS_1XYT6n-iXaY0HlWkl1zAlcZKuAYvau0vc2ik_I6V3RqLutneDLX8cht8NDpKYBNmHXKz93NCGzoOFn3ffDHhjHdlAanvfLjmoCm3W-NtQAMdLOWI5cCZnk9eFqC3ydQEMz4_ZgvA=w887-h665-no?authuser=0" class="img-fluid" alt="" />
                 <div class="portfolio-links">
@@ -524,7 +527,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos-duration=600 data-aos="fade-up">
               <div class="shadow-lg card portfolio-wrap">
                 <img src="https://lh3.googleusercontent.com/sM0KOOdQRyJ-PV-usL5nj6rlRH3ALfNF4I1BwQkdczlh-4JLzYiszaFPwpFJHK8i9L4fXQ2GrUzb1sWayqEHsfHF_bk8XQuwPX4HKe8YrC6t23jdAv-yCQ7czs05Cqh-p1nkMBrvOpOvqk_k7EH3bdvQYnq83D3B5nokay2sNLtyIa1qa83LquWW-G_JRceanKcQ4VlEhpOm_W1IYfzZSu1_vk_odxIUyxNb2IwpDoMW4N9XZs_JXrakwYqF0SA6v8GBgBA3GljQK2FSQDxp0lf7YYaYxvq273-eMwRTHt9CeptjIx2_KEhj2V9fUXivRBeT2lPgxO2giXUf2i8zvwmW6vA99SlDQrnTPBRBiHn_D5xAi71GfcmLuJv2HcOYd4zRdV8adVT03muiYh-KBAIkjkh6CoSeS_FLV8G3jpcNQv26MJh1Zj-t0MpaHg2LjFbWSc5NPbDq4klYJll56wqnCKH0SYSnHrUkpDqmCqaBTthG970O_0xJDlmn18ONbdfizPfJEcnRu_BNYwa_l5o8Kw9hkVTwzzfrrZAa1ash3gHjvUT5cKsybkJ2rKuT4EgROnMNcznhR-t0TGyg8YoRtPAs0sXCZDu8xibGEXN_VlfaeTtCdZV95L8AusS68eHVzI1WbTA9_VmwR2G8YPiQ03NI5vMa060oeyv_aJ3o25cjQFfMwXo-qAoxIhQ=w897-h665-no?authuser=0" class="img-fluid" alt="" />
                 <div class="portfolio-links">
@@ -539,7 +542,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos-duration=600  data-aos="fade-up" >
               <div class="card portfolio-wrap">
                 <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="" />
                 <div class="portfolio-links">
@@ -570,42 +573,42 @@
           </div>
 
           <div class="row">
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-offset=120>
               <div class="icon"><i class="devicon-css3-plain"></i></i></div>
               <h4 class="title"><a >CSS</a></h4>
               <p class="description">
                 Latest version of cascading style sheets
               </p>
             </div>
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-offset=120 data-aos-delay="100">
               <div class="icon"><i class="devicon-git-plain"></i></div>
               <h4 class="title"><a >Git</a></h4>
               <p class="description">
                 Git version controll system
               </p>
             </div>
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-offset=120 data-aos-delay="200">
               <div class="icon"><i class="devicon-html5-plain"></i></div>
               <h4 class="title"><a >HTML</a></h4>
               <p class="description">
                 Latest version of HTML(5)
               </p>
             </div>
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-offset=120 data-aos-delay="300">
               <div class="icon"><i class="devicon-nodejs-plain"></i></i></div>
               <h4 class="title"><a >Node.js</a></h4>
               <p class="description">
                 Node.js for backend 
               </p>
             </div>
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-offset=120 data-aos-delay="400">
               <div class="icon"><i class="devicon-python-plain"></i></div>
               <h4 class="title"><a >Python</a></h4>
               <p class="description">
                 Python3 for problem solving , ds & algo visualisation 
               </p>
             </div>
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-offset=120 data-aos-delay="500">
               <div class="icon"><i class="devicon-react-original"></i></div>
               <h4 class="title"><a >React.js</a></h4>
               <p class="description">
@@ -613,7 +616,7 @@
               </p>
             </div>
 
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-offset=120 data-aos-delay="400">
               <div class="icon"><i class="devicon-android-plain"></i></div>
               <h4 class="title"><a >Android</a></h4>
               <p class="description">
@@ -622,7 +625,7 @@
             </div>
 
 
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-offset=120 data-aos-delay="400">
               <div class="icon"><i class="devicon-java-plain"></i>
               </div>
               <h4 class="title"><a >Java</a></h4>
@@ -631,7 +634,7 @@
               </p>
             </div>
 
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-offset=120 data-aos-delay="400">
               <div class="icon"><i class="devicon-mongodb-plain"></i>
               </div>
               <h4 class="title"><a >Mongodb</a></h4>
@@ -640,7 +643,7 @@
               </p>
             </div>
 
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-offset=120 data-aos-delay="400">
               <div class="icon"><i class="devicon-webpack-plain"></i>
               </div>
               <h4 class="title"><a >Webpack</a></h4>
@@ -649,7 +652,7 @@
               </p>
             </div>
 
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-offset=120 data-aos-delay="400">
               <div class="icon"><i class="devicon-bootstrap-plain"></i>
 
               </div>
@@ -751,7 +754,7 @@
             </p>
           </div>
 
-          <div class="row" data-aos="fade-in">
+          <div class="row" data-aos="fade-up-right">
             <div class="col-lg-5 d-flex align-items-stretch">
               <div class="info">
                 <div class="address">
@@ -776,7 +779,7 @@
               </div>
             </div>
 
-            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-up-left">
               <form id="mailme" method="post" role="form" action=" https://smartforms.dev/submit/5eeda55c8720a934045a1a30" class="php-email-form">
                 <div class="form-row">
                   <div class="form-group col-md-6">
@@ -839,7 +842,7 @@
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer">
+    <footer  data-aos="slide-right" data-aos-offset=50 id="footer">
       <div class="container">
         <div class="copyright">
           &copy; Copyright <strong><span>Akashdeep Patra</span></strong>
@@ -868,10 +871,12 @@
     <script src="assets/vendor/venobox/venobox.min.js"></script>
     <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
     <script src="assets/vendor/typed.js/typed.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
+    <!-- <script src="assets/vendor/aos/aos.js"></script> -->
     <!-- <script type="text/javascript" src="js/mailer.js"></script> -->
 
     <!-- Template Main JS File -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/main.js"></script>
+    
   </body>
 </html>
